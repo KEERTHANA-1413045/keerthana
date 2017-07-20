@@ -1,4 +1,4 @@
-package Players;
+package Hunters;
 
 import java.util.Scanner;
 
@@ -6,13 +6,15 @@ public class WorkingDay {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		String str=sc.next();
-		if(str.equals("sunday")){
-			System.out.println("Not Working Day");
+		//String[] str={"sunday","monday","tuesday","wednesday","thursday","friday","saturday"};
+		String str1=sc.next();
+		if(str1.equals("sunday")){
+			System.out.println("false");
 		}
-		else{
-			System.out.println("Working Day");
-		}
+			else
+			{
+				System.out.println("true");
+			}
 		sc.close();
 	}
 
